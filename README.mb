@@ -1,0 +1,25 @@
+# Task: Predict Future Stock Prices (Short-Term)
+
+This project is part of the AI/ML Engineering Internship at DevelopersHub.
+
+## 🔍 Objective
+Use historical stock data to predict the next day's closing price using regression models.
+
+## 📁 Files
+- `Task2_Stock_Price_Prediction.ipynb`: Main notebook for data preprocessing, modeling, and visualization.
+- `stock_data.csv`: Historical stock prices for 5 different stocks.
+- `README.md`: This documentation.
+
+## 🧠 Techniques Used
+- Time series data handling with pandas
+- Feature engineering with lag values
+- Random Forest Regressor from scikit-learn
+- Mean Squared Error (MSE) for evaluation
+- Plotting with matplotlib
+
+## 📊 Result
+The model successfully captured stock price trends with a low Mean Squared Error.
+
+## 📌 Notes
+Data was synthetically generated and does not represent real market data.
+
